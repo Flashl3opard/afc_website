@@ -54,7 +54,7 @@ function Achievements(){
         <Flex
         id='achievements'
         py={{base:"2rem",sm:"4rem"}}
-        bg={"#131313"}
+        bg={"#000"}
         direction={"column"}
         align={"center"}
         >

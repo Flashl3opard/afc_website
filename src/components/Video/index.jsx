@@ -5,7 +5,7 @@ function Video(){
     return(
         <Box
         py={{base:"2rem",md:"4rem"}}
-        bg={"#131313"}
+        bg={"#000"}
         >
             <AspectRatio 
             w={"80%"} 

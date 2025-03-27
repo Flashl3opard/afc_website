@@ -9,7 +9,7 @@ function Team(){
         <Flex
         id='team'
         py={"2rem"}
-        bg={"#131313"}
+        bg={"#000"}
         direction={"column"}
         align={"center"}
         gap={"2rem"}

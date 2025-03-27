@@ -12,8 +12,9 @@ function EventReports() {
     return (
         <Flex
             id='event-reports'
+            mt="4rem" // Add margin-top for spacing from the component above
             py={"2rem"}
-            bg={"#131313"}
+            bg={"#000"}
             direction={"column"}
             align={"center"}
             gap={"2rem"}
@@ -30,7 +31,7 @@ function EventReports() {
                 <AccordionItem>
                     <AccordionButton onClick={() => handleAccordionChange(0)}>
                         <Text flex="1" textAlign="left" color={"#fcf9f9"} fontSize={{ base: "1.5rem", md: "2rem" }}>
-                            Aerothon
+                            Aerothon 2024
                         </Text>
                         <AccordionIcon />
                     </AccordionButton>
@@ -41,7 +42,7 @@ function EventReports() {
                                 <Text color={"#fcf9f9"}>
                                     <a href="#" target="_blank" rel="noopener noreferrer">
                                         <Text as="span" textDecoration="underline" color="teal.300" fontWeight="bold">
-                                            View Aerothon Report
+                                            View Aerothon 2024 Report
                                         </Text>
                                     </a>
                                 </Text>
@@ -53,7 +54,7 @@ function EventReports() {
                 <AccordionItem>
                     <AccordionButton onClick={() => handleAccordionChange(1)}>
                         <Text flex="1" textAlign="left" color={"#fcf9f9"} fontSize={{ base: "1.5rem", md: "2rem" }}>
-                            DDC
+                            WRC 2024
                         </Text>
                         <AccordionIcon />
                     </AccordionButton>
@@ -64,7 +65,7 @@ function EventReports() {
                                 <Text color={"#fcf9f9"}>
                                     <a href="#" target="_blank" rel="noopener noreferrer">
                                         <Text as="span" textDecoration="underline" color="teal.300" fontWeight="bold">
-                                            View DDC Report
+                                            View WRC 2024 Report
                                         </Text>
                                     </a>
                                 </Text>
@@ -76,7 +77,7 @@ function EventReports() {
                 <AccordionItem>
                     <AccordionButton onClick={() => handleAccordionChange(2)}>
                         <Text flex="1" textAlign="left" color={"#fcf9f9"} fontSize={{ base: "1.5rem", md: "2rem" }}>
-                            Smart India Hackathon
+                            Sky Maneuvers 2024
                         </Text>
                         <AccordionIcon />
                     </AccordionButton>
@@ -87,7 +88,7 @@ function EventReports() {
                                 <Text color={"#fcf9f9"}>
                                     <a href="#" target="_blank" rel="noopener noreferrer">
                                         <Text as="span" textDecoration="underline" color="teal.300" fontWeight="bold">
-                                            View SIH Report
+                                            View Sky Maneuvers 2024 Report
                                         </Text>
                                     </a>
                                 </Text>
