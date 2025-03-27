@@ -11,38 +11,23 @@ import Team from './components/Team';
 import Gallery from './components/Gallery';
 import Sponsors from './components/Sponsors';
 import Contact from './components/Contact';
+import EventReports from './components/EventReports';
 
 function App() {
   return (
     <div className='afc_web_app'>
-      <Navbar />
-      <div style={{overflowX:"hidden"}}>
-      <Element name="home">
-        <Home />
-      </Element>
-      <Element name="about">
-        <About />
-      </Element>
-      <Element name="projects">
-        <Projects />
-      </Element>
-      <Video/>
-      <Element name="achievements">
-        <Achievements />
-      </Element>
-      <Element name="team">
-        <Team />
-      </Element>
-      <Element name="gallery">
-        <Gallery />
-      </Element>
-      <Element name="sponsors">
-        <Sponsors />
-      </Element>
-      <Element name="contact">
-        <Contact />
-      </Element>
-      </div>
+    <Navbar />
+    <Home />
+    <About/>
+    <Projects />
+    < Video />
+    < Achievements/>
+    <EventReports />
+    <Team />
+    <Gallery />
+    <Sponsors/>
+    <Contact />
+
     </div>
   );
 }

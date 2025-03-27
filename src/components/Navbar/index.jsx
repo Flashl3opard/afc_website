@@ -9,6 +9,7 @@ const links = [
   { to: 'about', text: 'About' },
   { to: 'projects', text: 'Projects' },
   { to: 'achievements', text: 'Achievements' },
+  { to: 'event-reports', text: 'Event Reports' }, // New link added here
   { to: 'team', text: 'Team' },
   { to: 'gallery', text: 'Gallery' },
   { to: 'sponsors', text: 'Sponsors' },
